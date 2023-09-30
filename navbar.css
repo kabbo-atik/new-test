@@ -1,0 +1,28 @@
+
+/* Navbar Start */
+
+ul{list-style: none;
+background-color: tomato;
+}
+
+
+.navigation{ display: flex;
+}
+.navigation li{margin-right: 50px ;
+font-size: 20px;
+}
+
+ul li:hover{ background-color: green;
+border-radius: 5px;
+}
+
+a{color: rgb(246, 246, 230);text-align: center;}
+
+nav li .dropdown{ display: none;
+position: absolute;
+background-color: rgb(12, 1, 1);
+padding: 5pxs;}
+
+nav li:hover > .dropdown{ display: block;}
+
+/* Navbar End */
